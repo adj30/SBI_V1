@@ -9,10 +9,36 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">SBI_v1</th></tr>
-<tr><td><a href="#t0">SBI Test chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">9,950</td><td></td><td></td></tr>
+<tr><td><a href="#t0">SBI Test chrome</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,191</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SBI_v1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SBI Test chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.sbi.testCases.TC_LoginTest_001</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1640715930552</td><td rowspan="1">6021</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SBI_v1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SBI Test chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.sbi.testCases.TC_LoginTest_001</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1640793564280</td><td rowspan="1">1966</td></tr></tbody>
 </table>
-<h2>SBI Test chrome</h2><h3 id="m0">com.sbi.testCases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">URL is opened<br/>Entered Username<br/>Entered Password<br/>Clicked Login button<br/>Login Test Passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SBI Test chrome</h2><h3 id="m0">com.sbi.testCases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">URL is opened<br/>Screen Shot Taken start<br/>Screen Shot Taken end</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;uid&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;DESKTOP-39H5KN2&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6bae6f3c05a7feae509177c079aa381, findElement {using=name, value=uid}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Aditya\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56662/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6bae6f3c05a7feae509177c079aa381
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.sendKeys(Unknown Source)
+	at com.sbi.pageObjects.LoginPage.setUserName(LoginPage.java:27)
+	at com.sbi.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
