@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SBI_v1">
+
+	
+	<test thread-count="5" name="SBI Test chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.sbi.testCases.TC_LoginTest_001" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+</suite> <!-- Suite -->

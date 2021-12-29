@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[URL is opened]]>
+    </line>
+    <line>
+      <![CDATA[Entered Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Test Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-27T16:17:57 IST" name="SBI_v1" finished-at="2021-12-27T16:18:06 IST" duration-ms="8854">
+    <groups>
+    </groups>
+    <test started-at="2021-12-27T16:17:57 IST" name="SBI Test chrome" finished-at="2021-12-27T16:18:06 IST" duration-ms="8854">
+      <class name="com.sbi.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sbi.testCases.TC_LoginTest_001@4802796d]" started-at="2021-12-27T16:17:57 IST" name="setUp" finished-at="2021-12-27T16:17:59 IST" duration-ms="2185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.sbi.testCases.TC_LoginTest_001@4802796d]" started-at="2021-12-27T16:17:59 IST" name="loginTest" finished-at="2021-12-27T16:18:06 IST" duration-ms="6529" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL is opened]]>
+            </line>
+            <line>
+              <![CDATA[Entered Username]]>
+            </line>
+            <line>
+              <![CDATA[Entered Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sbi.testCases.TC_LoginTest_001@4802796d]" started-at="2021-12-27T16:18:06 IST" name="tearDown" finished-at="2021-12-27T16:18:06 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sbi.testCases.TC_LoginTest_001 -->
+    </test> <!-- SBI Test chrome -->
+  </suite> <!-- SBI_v1 -->
+</testng-results>
