@@ -27,7 +27,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		lp.clickSubmit();
 		Reporter.log("Clicked Login button", true);
 		Thread.sleep(2);
-		if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
+		if (driver.getTitle().equals("GTPL Bank Manager HomePage")) {
 			Assert.assertTrue(true);
 			Reporter.log("Login Test Passed", true);
 
